@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./Login.css">
+    <title>Login-page</title>
+</head>
+<body>
+    <form>
+        <h1>Login</h1>
+        <p>Welcome!Login to get amazing discount</p>
+        <br>
+        <br>
+        <label for="Username">User Name</label>
+        <br>
+        <input id="user_name" type="text" pattern="[a-zA-Z]+" placeholder="Enter your username" required>
+        <br>
+        <label for="Password">Password</label>
+        <br>
+        <input id="pass" type="password" placeholder="Enter the password" maxlength="8" minlength="8" required>
+        <br>
+        <button title="Submit" onclick="Login()">Submit</button>
+    </form>
+    <script src="./Validation.js"></script>
+</body>
+</html>

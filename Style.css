@@ -1,0 +1,24 @@
+body{
+    background-image: url(https://images.static-collegedunia.com/public/college_data/images/appImage/1549272400SMS88882.jpg);
+    margin: 0;
+}
+.navigation{
+    background-color: black;
+    overflow: hidden;
+}
+.navigation a{
+    float: right;
+    color: white;
+    padding: 15px 18px;
+    font-size: 19px;
+    list-style: none;
+    text-decoration: none;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+form{
+    background-color: purple;
+    
+}
